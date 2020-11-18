@@ -1,0 +1,14 @@
+{
+    "extends": "../tsconfig.json",
+    "references": [
+        { 
+            "name": "advanced-ts", 
+            "path": ".." 
+        }
+    ],
+    "compilerOptions": {
+        "types": ["jest"],
+        "rootDir": ".."
+    },
+    "include": ["."]
+}
